@@ -1,0 +1,6 @@
+services:
+  hello-container:
+    build: .
+    ports:
+      - "8005:8000"
+    restart: always
